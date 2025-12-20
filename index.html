@@ -240,11 +240,12 @@
 
           <!-- Email Input -->
           <div class="flex flex-col gap-[15px]">
-            <label class="text-[16px] text-black">
+            <label for="frm-email" class="text-[16px] text-black">
               Your email
             </label>
             <input
               type="email"
+              id="frm-email"
               name="email"
               placeholder=""
               class="bg-white border border-[#777] rounded-[8px] px-[10px] py-[10px] text-[16px] text-black focus:outline-none focus:border-[#0051ff]"
@@ -254,11 +255,12 @@
 
           <!-- URL Input -->
           <div class="flex flex-col gap-[15px]">
-            <label class="text-[16px] text-black">
+            <label id="frm-url" class="text-[16px] text-black">
               Website or product URL / screenshot
             </label>
             <input
               type="text"
+              id="url"
               name="url"
               placeholder="https://yourwebsite.com"
               class="bg-white border border-[#777] rounded-[8px] px-[10px] py-[10px] text-[16px] text-black focus:outline-none focus:border-[#0051ff]"
@@ -273,11 +275,12 @@
 
           <!-- Focus Area -->
           <div class="flex flex-col gap-[15px]">
-            <label class="text-[16px] text-black">
+            <label for="frm-textarea" class="text-[16px] text-black">
               Anything you'd like me to focus on? (optional)
             </label>
             <textarea
               name="focusArea"
+              id="frm-textarea"
               placeholder="E.g. 'Review the checkout flow' or 'Are the actions clear enough?'"
               class="bg-white border border-[#777] rounded-[8px] px-[10px] py-[10px] text-[16px] text-[#777] h-[100px] resize-none focus:outline-none focus:border-[#0051ff]"
             ></textarea>
